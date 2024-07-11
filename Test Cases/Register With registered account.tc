@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register With registered account</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42b3ba12-f5ea-453f-a769-4d3e2926a83a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>de3fe263-af68-42e5-bd64-bb38d0ee7b6f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>064d24d8-5397-48ef-b489-bd907ba10446</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'QATest'</defaultValue>
+      <description></description>
+      <id>de3fe263-af68-42e5-bd64-bb38d0ee7b6f</id>
+      <masked>true</masked>
+      <name>InvalidRegisterName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password123!'</defaultValue>
+      <description></description>
+      <id>064d24d8-5397-48ef-b489-bd907ba10446</id>
+      <masked>true</masked>
+      <name>InvalidRegisterPassword</name>
+   </variable>
+</TestCaseEntity>

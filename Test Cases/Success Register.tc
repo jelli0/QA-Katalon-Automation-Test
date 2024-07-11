@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Success Register</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42351378-a482-4632-9bea-7c051200975d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>500c1292-b104-4c6c-978b-db527e41a54a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1cf56e51-74e9-46a8-8dcb-5429673f0781</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'InternalQA12'</defaultValue>
+      <description></description>
+      <id>500c1292-b104-4c6c-978b-db527e41a54a</id>
+      <masked>true</masked>
+      <name>RegisterName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password123!'</defaultValue>
+      <description></description>
+      <id>1cf56e51-74e9-46a8-8dcb-5429673f0781</id>
+      <masked>true</masked>
+      <name>RegisterPassword</name>
+   </variable>
+</TestCaseEntity>
