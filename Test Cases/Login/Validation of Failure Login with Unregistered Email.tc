@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validation of Failure Login with Unregistered Email</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3a067ca3-d08a-43b6-9643-197ee348ca00</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Customers add product to the cart from PDP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ab9a70f2-d31b-4350-9b46-d90715c57f0e</testCaseGuid>
+</TestCaseEntity>

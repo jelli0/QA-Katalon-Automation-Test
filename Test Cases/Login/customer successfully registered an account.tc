@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>customer successfully registered an account</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eb46d490-03c4-4e6c-9b83-47faef643ada</testCaseGuid>
+</TestCaseEntity>

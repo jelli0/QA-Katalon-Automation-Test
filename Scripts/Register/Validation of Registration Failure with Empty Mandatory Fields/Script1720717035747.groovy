@@ -22,17 +22,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.demoblaze.com/')
 
-WebUI.click(findTestObject('Register/register_locator/a_Sign up'))
+WebUI.click(findTestObject('Object Repository/Register/register_locator/a_Sign up'))
 
-WebUI.setText(findTestObject('Object Repository/Register/register_locator/input_Username_sign-username'), InvalidRegisterName)
-
-WebUI.setText(findTestObject('Object Repository/Register/register_locator/input_Password_sign-password'), InvalidRegisterPassword)
+WebUI.setText(findTestObject('Object Repository/Register/register_locator/input_Password_sign-password'), 'Testing')
 
 WebUI.click(findTestObject('Object Repository/Register/register_locator/button_Sign up'))
 
-WebUI.waitForAlert(3)
+WebUI.waitForAlert(5)
+
+WebUI.acceptAlert()
+
+WebUI.setText(findTestObject('Register/register_locator/input_Username_sign-username'), 'Testing')
+
+WebUI.clearText(findTestObject('Register/register_locator/input_Password_sign-password'))
+
+WebUI.click(findTestObject('Object Repository/Register/register_locator/button_Sign up'))
+
+WebUI.waitForAlert(5)
+
+WebUI.acceptAlert()
 
 WebUI.click(findTestObject('Register/register_locator/span_'))
 
-WebUI.waitForElementVisible(findTestObject('Register/register_locator/button_Sign up'), 3)
+WebUI.waitForElementVisible(findTestObject('Register/register_locator/button_Sign up'), 5)
+
+WebUI.closeBrowser()
 

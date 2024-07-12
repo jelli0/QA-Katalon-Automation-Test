@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Success Register</name>
+   <name>Validation of Registration Failure with Duplicate Username</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>42351378-a482-4632-9bea-7c051200975d</testCaseGuid>
+   <testCaseGuid>42b3ba12-f5ea-453f-a769-4d3e2926a83a</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>500c1292-b104-4c6c-978b-db527e41a54a</variableId>
+      <variableId>de3fe263-af68-42e5-bd64-bb38d0ee7b6f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>1cf56e51-74e9-46a8-8dcb-5429673f0781</variableId>
+      <variableId>064d24d8-5397-48ef-b489-bd907ba10446</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'InternalQA12'</defaultValue>
+      <defaultValue>'QATest'</defaultValue>
       <description></description>
-      <id>500c1292-b104-4c6c-978b-db527e41a54a</id>
+      <id>de3fe263-af68-42e5-bd64-bb38d0ee7b6f</id>
       <masked>true</masked>
-      <name>RegisterName</name>
+      <name>InvalidRegisterName</name>
    </variable>
    <variable>
       <defaultValue>'Password123!'</defaultValue>
       <description></description>
-      <id>1cf56e51-74e9-46a8-8dcb-5429673f0781</id>
+      <id>064d24d8-5397-48ef-b489-bd907ba10446</id>
       <masked>true</masked>
-      <name>RegisterPassword</name>
+      <name>InvalidRegisterPassword</name>
    </variable>
 </TestCaseEntity>

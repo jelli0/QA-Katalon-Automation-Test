@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Logged-in users can create and process orders until completion</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>231d1387-1089-4980-8b93-e68e99cfd8a9</testCaseGuid>
+</TestCaseEntity>

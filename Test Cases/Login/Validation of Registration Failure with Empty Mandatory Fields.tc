@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validation of Registration Failure with Empty Mandatory Fields</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2493bb86-47c8-460e-92e1-5bdf8f2ca486</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Customer Successfully Sends Contact Message</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>010c0f88-3884-4cbd-a9fa-da6dea8aac02</testCaseGuid>
+</TestCaseEntity>

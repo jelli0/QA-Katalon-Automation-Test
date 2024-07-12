@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Customers are unable to bypass the required information necessary to complete an order</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>925a4be6-00d4-42a7-9d2d-3bb849a4162d</testCaseGuid>
+</TestCaseEntity>

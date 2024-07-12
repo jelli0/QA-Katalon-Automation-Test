@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Register with Empty Field</name>
+   <name>Guest user can process the order to completion</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c78f4213-a2d3-4739-9532-dc5a3ebebc37</testCaseGuid>
+   <testCaseGuid>c341e600-a197-4101-af96-fdfe468b3671</testCaseGuid>
 </TestCaseEntity>

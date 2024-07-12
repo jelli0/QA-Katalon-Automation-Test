@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Cart/a_Delete",
+      "brokenLocator": "//a[@onclick\u003d\"deleteItem(\u002725fc3018-d418-9380-004a-aca5d95539b9\u0027)\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//tbody[@id\u003d\u0027tbodyid\u0027]/tr/td[4]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Cart/a_Delete_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Cart/a_Delete",
+      "brokenLocator": "//a[normalize-space()\u003d\u0027Delete\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Total\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Cart/a_Delete_neighbor.png"
+    }
+  ]
 }

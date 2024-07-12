@@ -14,7 +14,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
@@ -22,12 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.demoblaze.com/')
 
-WebUI.click(findTestObject('Object Repository/Register/register_locator/a_Sign up'))
+WebUI.click(findTestObject('Object Repository/Login/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/Register/register_locator/input_Username_sign-username'), RegisterName)
+WebUI.setText(findTestObject('Object Repository/Login/input_Username_loginusername'), 'InvalidUsernameQA')
 
-WebUI.setText(findTestObject('Object Repository/Register/register_locator/input_Password_sign-password'), RegisterPassword)
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/input_Password_loginpassword'), '3Z9vEXbPUsD5eDQOwLR1+w==')
 
-WebUI.click(findTestObject('Object Repository/Register/register_locator/button_Sign up'))
+WebUI.click(findTestObject('Object Repository/Login/button_Log in'))
 
-WebUI.waitForAlert(10)
+WebUI.click(findTestObject('Register/register_locator/span_'))
+
+WebUI.waitForElementVisible(findTestObject('Register/register_locator/button_Sign up'), 5)
+
+WebUI.closeBrowser()
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Customers can remove products that have been added to the cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>59e82fd5-7a1f-4a83-befb-3cd9bb59ea64</testCaseGuid>
+</TestCaseEntity>
